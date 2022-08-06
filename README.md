@@ -37,6 +37,10 @@
 
 Paste in the style.css
 
+## Examples
+
+- [D&D Garth Character, using this source](https://wiki.boop.ninja/en/dungeons-and-dragons/birth-of-new-legends/characters/garth)
+
 ## Sources
 
 [Original Timeline Source](https://www.section.io/engineering-education/building-an-animated-vertical-timeline-chart-with-html-css-and-javascript/#adding-animation-using-javascript)
