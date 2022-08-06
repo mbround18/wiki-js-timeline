@@ -8,10 +8,9 @@
 <main>
   <section class="intro-text">
     <div class="container">
-      <h1>Life of Garth</h1>
+      <h1>Title Here</h1>
       <p>
-        Garth keeps an accurate log of all his core memories; these core
-        memories are written in his soul.
+        Description here
       </p>
     </div>
   </section>
