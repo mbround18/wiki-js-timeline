@@ -1,4 +1,4 @@
-const garth =
+const dataSource =
   "https://gist.githubusercontent.com/mbround18/14afba09ee3e9d9263141ea0a4d82459/raw/dd6a7de94ef0b5a41615bdc8af0dd463a5e092c7/garth.events.json";
 
 function waitForElm(selector) {
@@ -89,7 +89,7 @@ function main() {
 
 waitForElm("#timeline")
   .then(async () => {
-    const derp = await axios.get(garth);
+    const derp = await axios.get(dataSource);
     let jsonString = derp.data;
     jsonString = jsonString
       .replace(/\\"|"(?:\\"|[^"])*"|(\/\/.*|\/\*[\s\S]*?\*\/)/g, (m, g) =>
